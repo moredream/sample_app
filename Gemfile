@@ -7,6 +7,8 @@ gem 'rails', '3.1.3'
 
 gem 'pg'
 gem 'gravatar_image_tag'
+gem 'will_paginate'
+
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
@@ -31,6 +33,7 @@ gem 'jquery-rails'
 
 group :development do
   gem 'rspec-rails', '2.0.1'
+  gem 'faker'
   
 end
 group :test do
